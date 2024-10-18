@@ -1,0 +1,40 @@
+
+{
+  "name": "mern-chatbot",
+  "version": "1.0.0",
+  "description": "React Bot for webpage",
+  "main": "index.js",
+  "engines": {
+    "node": "11.10.0",
+
+    "npm": "6.10.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "backend": "nodemon index.js",
+    "frontend": "npm run start --prefix client",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pratapmohan579"
+  },
+  "author": "Mohan Pratap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpytechnologies12/pratapmohan579-gmail.com"
+  },
+  "homepage": "https://github.com/pratapmohan579?tab=repositories",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dialogflow": "^0.11.0",
+    "express": "^4.17.1",
+    "node": "^22.9.0",
+    "node.js": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.1"
+  }
+}
